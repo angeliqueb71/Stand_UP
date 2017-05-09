@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+ .panel {
+		height: 100%;
+		width: 100%;
+	}
+
+	.panel.green {
+		margin-bottom: 400px
+	}
+
+ .staticVideo {
+   background-color: gray;
+ }
+
+ .history {
+   background-color: blue;
+ }
+
+ .life {
+   background-color: yellow;
+ }
+
+ .animal {
+   background-color: pink;
+ }
+
+ .beauty {
+   background-color: turquoise;
+ }

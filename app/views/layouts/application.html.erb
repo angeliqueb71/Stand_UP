@@ -9,15 +9,36 @@
   </head>
 
   <body>
-      <script src="path/to/js/gsap/TweenMax.min.js"></script>
-      <script src="path/to/js/jquery.min.js"></script>
-      <!-- should be replaced with minified version when development is finished -->
-      <script src="path/to/js/jquery.scrollmagic.js"></script>
-      <!-- should be removed when development is finished -->
-      <script src="path/to/js/jquery.scrollmagic.debug.js"></script>
-      <script>
-      // this is where our code will go
-      </script>
+
+
+
+
+    <nav>
+      <ul>
+        <li>history</li>
+        <li>life</li>
+        <li>animal</li>
+        <li>beauty</li>
+      </ul>
+    </nav>
+
+
+
     <%= yield %>
+
+
+    <!-- scrollMagic script -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+   <!-- ...... -->
+
+   <script src="path/to/js/jquery.min.js"></script>
+   <!-- should be replaced with minified version when development is finished -->
+   <script src="path/to/js/jquery.scrollmagic.js"></script>
+   <!-- should be removed when development is finished -->
+   <script src="path/to/js/jquery.scrollmagic.debug.js"></script>
+   <script>
+   // this is where our code will go
+   </script>
   </body>
 </html>
