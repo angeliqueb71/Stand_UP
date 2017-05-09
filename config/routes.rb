@@ -1,19 +1,16 @@
 Rails.application.routes.draw do
-  get 'comments/new'
 
-  get 'comments/create'
+  get '/' => 'home#index'
 
-  get 'beautys/index'
+  get '/history' => 'history#index'
 
-  get 'animals/index'
+  get '/life' => 'life#index'
 
-  get 'life/index'
+  get '/animal' => 'animal#index'
 
-  get 'world/index'
+  get '/beauty' => 'beauty#index'
 
-  get 'history/index'
-
-  get 'home/index'
+  resources :comments
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
