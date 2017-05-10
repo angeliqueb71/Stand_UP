@@ -16,9 +16,10 @@
 
  /*template styling*/
  body {
-   font-family: 'Luckiest Guy', cursive;
+   font-family: 'Open Sans', sans-serif;
    background-color: #DECBB7;
    color: #433633;
+   letter-spacing: 0.1em;
  }
 
  .logo {
@@ -26,7 +27,12 @@
     top: 8px;
  }
 
+ h1, h2, h3 {
+   font-family: 'Luckiest Guy', cursive;
+ }
+
  nav {
+  font-family: 'Luckiest Guy', cursive;
   background-color: #ff6961;
   position: fixed;
   top: 0px;
@@ -49,7 +55,7 @@
 
  nav ul {
    position: relative;
-   left: 100px;
+   left: 80px;
  }
 
  nav li {
