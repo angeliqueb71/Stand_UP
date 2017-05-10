@@ -1,3 +1,49 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.videoContainer {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  width: 380px;
+  height: 300px;
+  background-color: #8F857D;
+  padding: 10px 30px 30px 30px;
+}
+
+#homeH1 {
+  letter-spacing: 0.1em;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #454545;
+  width: 382px;
+}
+
+.historyContainer {
+  position: absolute;
+  top: 160px;
+  left: 500px;
+  width: 500px;
+  height: 150px;
+  background-color: #66CCCC;
+  padding: 10px 30px 30px 30px;
+}
+
+.animalContainer {
+  position: absolute;
+  top: 530px;
+  left: 20px;
+  width: 380px;
+  height: 200px;
+  background-color: #77DD77;
+  padding: 10px 30px 30px 30px;
+}
+
+.beautyContainer {
+  position: absolute;
+  top: 380px;
+  left: 500px;
+  width: 500px;
+  height: 350px;
+  background-color: #FDFD96;
+  padding: 10px 30px 30px 30px;
+}

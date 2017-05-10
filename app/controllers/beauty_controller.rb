@@ -1,4 +1,4 @@
-class BeautysController < ApplicationController
+class BeautyController < ApplicationController
   def index
   end
 end
