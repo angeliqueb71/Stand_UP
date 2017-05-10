@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-var controller = new ScrollMagic.Controller();
+
+
+// var controller = new ScrollMagic.Controller();
