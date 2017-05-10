@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FunFacts</title>
+    <title>Brain Floss</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -19,18 +19,31 @@
 
   </head>
 
+
+    <link rel="shortcut icon" href="app/assets/images/brainFavicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+  </head>
+
   <body>
 
 
 
-
-
     <nav>
+      <%= image_tag('brainLogo.png', size: "70x70", class: "logo") %>
+      <h2>Brain Floss</h2>
       <ul>
-        <li>history</li>
-        <li>life</li>
-        <li>animal</li>
-        <li>beauty</li>
+        <li><a href="/">home</a></li>
+        <li><a href="/history">history</a></li>
+        <li><a href="/life">life</a></li>
+        <li><a href="/animal">animals</a></li>
+        <li><a href="/beauty">beauty</a></li>
+        <li><a href="/trivia">trivia</a></li>
+        <li><a href="/sudoku">sudoku</a></li>
       </ul>
     </nav>
 

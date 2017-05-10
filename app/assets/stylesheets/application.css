@@ -14,31 +14,65 @@
  *= require_self
  */
 
- .panel {
-		height: 100%;
-		width: 100%;
-	}
-
-	.panel.green {
-		margin-bottom: 400px
-	}
-
- .staticVideo {
-   background-color: gray;
+ body {
+   font-family: 'Open Sans', sans-serif;
+   background-color: #DECBB7;
+   color: #433633;
+   letter-spacing: 0.1em;
  }
 
- .history {
-   background-color: blue;
+ .logo {
+    position: relative;
+    top: 8px;
  }
 
- .life {
-   background-color: yellow;
+ h1, h2, h3 {
+   font-family: 'Luckiest Guy', cursive;
  }
 
- .animal {
-   background-color: pink;
+ nav {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #ff6961;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  padding: 15px;
+  color: #454545;
+  border-bottom: 20px solid #454545;
+  height: 85px;
  }
 
- .beauty {
-   background-color: turquoise;
+ nav h2 {
+   display: inline;
+   position: relative;
+   left: -2px;
+   letter-spacing: 0.2em;
+   margin-right: 150px;
+ }
+
+ nav ul {
+   position: relative;
+   left: 80px;
+ }
+
+ nav li {
+   display: inline;
+   position: relative;
+   top: -35px;
+   left: 240px;
+   padding-right: 50px;
+   font-size: 18px;
+   width: 50px;
+   letter-spacing: .1em;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: #454545;
+ }
+
+ nav a:hover {
+   color: #feccc9;
  }

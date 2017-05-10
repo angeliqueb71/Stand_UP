@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-root 'home#index'
+  root 'home#index'
 
   get '/history' => 'history#index'
 
@@ -9,6 +9,10 @@ root 'home#index'
   get '/animal' => 'animal#index'
 
   get '/beauty' => 'beauty#index'
+
+  get '/sudoku' => 'sudoku#index'
+
+  get '/trivia' => 'trivia#index'
 
   resources :comments
 
