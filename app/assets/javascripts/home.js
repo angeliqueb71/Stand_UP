@@ -17,6 +17,7 @@
   //
   // vidFrame.src = randomVids[whichVid];
 
+
   // star wars api
   $.getJSON("http://swapi.co/api/people/" + swPeeps,
     function(response) {
@@ -134,7 +135,7 @@
   );
 
 
-  // jokes api
+  // chuck Norris jokes api
   $.getJSON("http://api.icndb.com/jokes/random",
     function(response) {
       console.log(response);
@@ -151,7 +152,6 @@
       randomJoke.appendChild(joke1);
     }
   );
-
 
 
 // }

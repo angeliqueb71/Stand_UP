@@ -260,7 +260,7 @@
 
   .starWarsContent {
     position: relative;
-    top: -80px;
+    top: -100px;
   }
 
   #hTest {
@@ -339,18 +339,25 @@
   }
 
   .starScroll {
-    height: 250px;
+    height: 220px;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .filmDiv {
     position: relative;
-    top: -30px;
+    top: 15px;
+  }
+
+  #sWarsFilms {
+    border-bottom: 3px solid #454545;
+    padding-bottom: 5px;
   }
 
   .filmScroll {
-    height: 100px;
+    position: relative;
+    top: -10px;
+    height: 130px;
     overflow: hidden;
     overflow-y: auto;
   }
