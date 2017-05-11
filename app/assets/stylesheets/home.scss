@@ -100,7 +100,7 @@
     height: 152px;
   }
 
-  .wordContainer {
+  .chuckContainer {
     position: absolute;
     top: 590px;
     left: 500px;
@@ -113,7 +113,7 @@
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
   }
 
-  .wordContainer:hover {
+  .chuckContainer:hover {
     background-color: #766ffd;
     top: 589px;
     left: 499px;
@@ -273,7 +273,7 @@
     top: 160px;
     left: 1860px;
     width: 470px;
-    height: 120px;
+    height: 78px;
     background-color: #66CCCC;
     padding: 10px 40px 40px 40px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -284,22 +284,73 @@
   .pokeContainer:hover {
     background-color: #77eeee;
     top: 159px;
-    left: 489px;
-    width: 502px;
-    height: 122px;
+    left: 1859px;
+    width: 472px;
+    height: 80px;
   }
 
   .pokeball {
     position: relative;
-    left: -20px;
+    top: 2px;
+    left: -22px;
   }
 
   .pokeContent{
     position: relative;
-    top: -80px;
+    top: -100px;
     left: 90px;
   }
 
-  .scrollContent {
-    text-overflow: ellipsis;
+  #pokeContent {
+    position: relative;
+    top: -10px;
+    // text-align: center;
+  }
+
+  .historyScroll {
+    height: 70px;
+    overflow: hidden;
+    // text-overflow: ellipsis;
+    overflow-y: auto;
+  }
+
+  .animalScroll {
+    height: 80px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .beautyScroll {
+    height: 70px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .chuckScroll {
+    height: 80px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .lifeScroll {
+    height: 190px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .starScroll {
+    height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .filmDiv {
+    position: relative;
+    top: -30px;
+  }
+
+  .filmScroll {
+    height: 100px;
+    overflow: hidden;
+    overflow-y: auto;
   }
