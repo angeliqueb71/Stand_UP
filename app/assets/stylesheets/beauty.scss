@@ -1,3 +1,245 @@
 // Place all the styles related to the beautys controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// bg 3-1 pic - scrollmagic
+#polish13pic{
+	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/4d/7c/e5/4d7ce5cec4caf29645c09d2857eef374.jpg');
+  position: relative;
+  top: 130px;
+	height: 1050px;
+	width: 776px;
+	left: 400px;
+  background-repeat: no-repeat;
+	z-index: 3;
+	display: inline-block;
+}
+
+// bg 3-2 pic - scrollmagic
+#lipstickpic {
+	border: 2px solid red;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/0e/3f/72/0e3f723dc80b59bdb18b18cb3d1e06ef.jpg');
+	height: 700px;
+	width: 650px;
+  background-repeat: no-repeat;
+	z-index: 6;
+	display: inline-block;
+}
+
+#polish14pic{
+	border: 2px solid red;
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/51stHS9pCcL.jpg');
+	// background-size: cover;
+	height: 400px;
+	width: 640px;
+  background-size: contain;
+	z-index: 2;
+	display: inline-block;
+}
+// vintage newspaper pic
+#lipstickpic{
+	border: 2px solid red;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/cf/d1/a9/cfd1a967a4f497bc3c0d0bfd6f9a6de2.jpg');
+	// background-size: cover;
+	height: 500px;
+	width: 500px;
+	z-index: 2;
+  right: 500px;
+  background-size: cover;
+	display: inline-block;
+}
+
+.prlx-scroll-wrapper {
+  /*overflow: hidden;*/
+  position: relative;
+  height: 12740px;
+  top: -20px;
+  text-align: center;
+}
+
+#parallax-bg3 {
+  top: -291.5px;
+  visibility: visible;
+  width: 100%;
+}
+
+#parallax-bg3 {
+  /*visibility: hidden;*/
+  z-index: 3;
+  /*position: fixed;*/  /*also dumb*/
+  left: 50%;
+  /*top: 0px;*/
+  width: 100%;
+  /*margin-left: -488px;*/
+}
+
+#bg3-1 {
+  top: 100px;
+  /*position: absolute;*/
+  left: 0px;
+  width: 100%;
+}
+// img {
+//   -webkit-user-select: none;
+//   width: 976px;
+//   height: 1200px;
+// }
+
+#bg3-2 {
+  position: absolute;
+  top: 1660px;
+  left: 0px;
+  width: 100%;
+}
+
+#bg3-3 {
+  position: absolute;
+  top: 1740px;
+  left: 0px;
+  width: 100%;
+}
+
+  #bg3-4 {
+    position: absolute;
+    top: 3125px;
+    left: 0px;
+    width: 100%;
+  }
+
+  #bg3-5 {
+  position: absolute;
+  top: 4550px;
+  left: 0px;
+}
+
+#bg3-6 {
+  position: absolute;
+  top: 4550px;
+  left: 0px;
+ }
+ #bg3-7 {
+    position: absolute;
+    top: 6080px;
+    left: 0px;
+  }
+
+  #parallax-bg2 {
+  visibility: hidden;
+  z-index: 2;
+  /*position: fixed;*/ /*thisguytoo*/
+  left: 50%;
+  top: 0px;
+  width: 100%;
+  margin-left: -488px;
+}
+
+#bg2-1 {
+  top: 50px;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+
+#bg2-3 {
+  position: absolute;
+  top: 2130px;
+  left: 0px;
+  width: 100%
+}
+
+#bg2-5 {
+  position: absolute;
+  top: 3967px;
+  left: 0px;
+}
+
+.beauty-history {
+  display: block;
+  font-size: 2.3em;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.weirdes-beauty {
+  font-size: 1.4em;
+}
+
+.four-six {
+  position: absolute;
+  top: 740px;
+  left: -15px;
+  width: 976px;
+}
+
+.four-six {
+  /*background: none repeat scroll 0 0 transparent;*/
+  float: left;
+  padding-left: 24px;
+  width: 301px;
+}
+
+.unibrow, .info {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  width: 629px;
+  padding: 8px 0 0 0;
+  line-height: 1em;
+	list-style: none;
+}
+
+.col-4 {
+  color: #66c3b9;
+  line-height: 1em;
+  padding-right: 8px;
+}
+
+#parallax-bg1 {
+  z-index: -10;
+  position: fixed;   /*fine*/
+  left: 50%;
+  width: 976px;
+  margin-left: -488px;
+}
+
+#bg1-2 {
+  position: absolute;
+  left: 0px;
+   z-index: -10;
+  width: 100%;
+}
+
+#bg1-1 {
+  position: absolute;
+  top: 1035px;
+  left: 0px;
+  width: 100%;
+  border: red solid 2px;
+}
+
+#bg1-3 {
+  position: absolute;
+  top: 1975px;
+  left: 0px;
+  width: 100%;
+  /* z-index: -1; */
+}
+
+#bg1-4 {
+  position: absolute;
+  top: 3040px;
+  left: 0px;
+}
+
+#bg1-4 img {
+  position: absolute;
+  top: 70px;
+}
+
+.one-three {
+  position: absolute;
+  top: 500px;
+  left: -15px;
+  width: 976px;
+}
