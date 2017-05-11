@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Brain Floss</title>
+    <title>BrainFloss</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <link rel="shortcut icon" href="app/assets/images/brainFavicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 
@@ -21,7 +23,7 @@
 
     <nav>
       <%= image_tag('brainLogo.png', size: "70x70", class: "logo") %>
-      <h2>Brain Floss</h2>
+      <h2>BrainFloss</h2>
       <ul>
         <li><a href="/">home</a></li>
         <li><a href="/history">history</a></li>
