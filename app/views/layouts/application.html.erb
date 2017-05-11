@@ -5,11 +5,11 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <link rel="shortcut icon" href="app/assets/images/brainFavicon.png">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="app/assets/images/brainFavicon.png">
 
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 
@@ -26,9 +26,7 @@
       <h2>BrainFloss</h2>
       <ul>
         <li><a href="/">home</a></li>
-        <li><a href="/history">history</a></li>
         <li><a href="/life">life</a></li>
-        <li><a href="/animal">animals</a></li>
         <li><a href="/beauty">beauty</a></li>
         <li><a href="/trivia">trivia</a></li>
         <li><a href="/sudoku">sudoku</a></li>
@@ -39,19 +37,5 @@
 
     <%= yield %>
 
-
-    <!-- scrollMagic script -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-   <!-- ...... -->
-
-   <script src="path/to/js/jquery.min.js"></script>
-   <!-- should be replaced with minified version when development is finished -->
-   <script src="path/to/js/jquery.scrollmagic.js"></script>
-   <!-- should be removed when development is finished -->
-   <script src="path/to/js/jquery.scrollmagic.debug.js"></script>
-   <script>
-   // this is where our code will go
-   </script>
   </body>
 </html>
