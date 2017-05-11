@@ -31,9 +31,57 @@
       var eyes = "Eyes: " + response.eye_color;
       var birth_year = "Birth Year: " +response.birth_year;
       var gender = "Gender: " + response.gender;
-      var homeworld = "Homeworld: " + response.homeworld;
-      var films = "Films: " + response.films.title;
-      var vehicles = "Films: " + response.films.tilte;
+      var species = response.species;
+      var homeworld = response.homeworld;
+      var films = response.films;
+
+
+      $.getJSON(species + "?format=json",
+        function(response) {
+          console.log(response);
+
+          var speciesName = "Species: " + response.name;
+          var content = document.getElementById("content");
+
+          var s = document.createElement("p");
+          s.innerHTML = speciesName;
+          content.appendChild(s);
+        }
+      );
+
+
+      $.getJSON(homeworld + "?format=json",
+        function(response) {
+          console.log(response);
+
+          var homeworldName = "Homeworld: " + response.name;
+          var content = document.getElementById("content");
+
+          var eight = document.createElement("p");
+          eight.innerHTML = homeworldName;
+          content.appendChild(eight);
+        }
+      );
+
+
+      for (i = 0; i < response.films.length; i++) {
+
+        var film = response.films[i];
+
+          $.getJSON(film + "?format=json",
+            function(response) {
+              console.log(response);
+
+              var filmsTitle = response.title;
+              var filmContent = document.getElementById("filmContent");
+
+              var nine = document.createElement("p");
+              nine.innerHTML = filmsTitle;
+              filmContent.appendChild(nine);
+            }
+          );
+      }
+
 
       // HTML elements stored in variables
       var headline = document.getElementById("hTest");
@@ -64,7 +112,6 @@
       content.appendChild(five);
       content.appendChild(six);
       content.appendChild(seven);
-      // content.document.createElement("br").innerHTML = height + mass + hair + skin + eyes + birth_year + gender;
     }
   );
 
@@ -88,7 +135,7 @@
   );
 
 
-  // jokes api
+  // chuck Norris jokes api
   $.getJSON("http://api.icndb.com/jokes/random",
     function(response) {
       console.log(response);
@@ -105,7 +152,6 @@
       randomJoke.appendChild(joke1);
     }
   );
-
 
 
 // }

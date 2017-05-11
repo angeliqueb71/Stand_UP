@@ -1,10 +1,10 @@
 <div class="mainContentContainer">
+
   <div class="videoContainer">
     <h1 id="homeH1">Video of the Day</h1>
 
     <div class="vidOfDay">
       <iframe id="vidFrame" src="http://www.youtube.com/embed/?listType=user_uploads&list=gardea23" width="382" height="215" controls="1"></iframe>
-      <!-- <iframe width="382" height="215" src="https://www.youtube.com/embed/b1JRaGJpzc8" frameborder="0" allowfullscreen></iframe> -->
     </div>
 
   </div>
@@ -13,7 +13,7 @@
   <div class="historyContainer">
     <h1><%= image_tag('management-library-icon_RD.png', size: "40x40", class: "bulb") %>Historic Fact</h1>
 
-    <p class="scrollContent">In 1895 Konstantin Tsiolkovsky, an early Russian rocket scientist, was the first to propose the concept of space elevators, a type of space transportation system.</p>
+    <p class="historyScroll">In 1895 Konstantin Tsiolkovsky, an early Russian rocket scientist, was the first to propose the concept of space elevators, a type of space transportation system.</p>
 
   </div>
 
@@ -21,7 +21,7 @@
   <div class="animalContainer">
     <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %>Animal Fact</h1>
 
-    <p class="scrollContent">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p>
+    <p class="animalScroll">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p>
 
   </div>
 
@@ -29,14 +29,14 @@
   <div class="beautyContainer">
     <h1><%= image_tag('lipstick.png', size: "40x40", class: "lipstick") %>Beauty Fact</h1>
 
-    <p class="scrollContent">Brunettes take less time getting ready in the morning than blondes, with brunettes averaging about 66 minutes to 72 minutes for blondes.</p>
+    <p class="beautyScroll">Brunettes take less time getting ready in the morning than blondes, with brunettes averaging about 66 minutes to 72 minutes for blondes.</p>
 
   </div>
 
-  <div class="wordContainer">
+  <div class="chuckContainer">
     <h2>Chuck Norris Joke</h2>
 
-    <p class="scrollContent" id="randomJoke"></p>
+    <p class="chuckScroll" id="randomJoke"></p>
 
   </div>
 
@@ -45,10 +45,11 @@
     <h1 id="memeH1">Meme</h1>
   </div>
 
+
   <div class="lifeContainer">
     <h1><%= image_tag('thinker.png', size: "40x40", class: "thinker") %>Facts of Life</h1>
 
-    <p class="scrollContent">Most neuroscientists distinguish between the words “emotion” and “feeling.” They use “emotion” to describe the brain’s auto-programmed response to certain stimuli, and “feeling” to describe our conscious impression of that response.</p>
+    <p class="lifeScroll">Most neuroscientists distinguish between the words “emotion” and “feeling.” They use “emotion” to describe the brain’s auto-programmed response to certain stimuli, and “feeling” to describe our conscious impression of that response.</p>
 
   </div>
 
@@ -75,10 +76,18 @@
     <div class="starWarsContent">
 
       <h2 id="hTest"></h2>
-      <div class="scrollContent" id="content">
+      <div class="starScroll" id="content">
       </div>
+
+      <div class="filmDiv">
+        <h3 id="sWarsFilms">Films</h3>
+        <div class="filmScroll" id="filmContent">
+        </div>
+      </div>
+
     </div>
   </div>
+  
 
   <div class="pokeContainer">
     <%= image_tag('pokeball.png', size: "100x100", class: "pokeball") %>
@@ -86,8 +95,8 @@
     <div class="pokeContent">
 
       <h2 id="hPoke">What's Your Spirit Pokemon?</h2>
-      <div id="pokeContent">
-      </div>
+      <p id="pokeContent">
+      </p>
     </div>
   </div>
 
