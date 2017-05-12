@@ -11,7 +11,7 @@
 
 
   <div class="historyContainer">
-    <h1><%= image_tag('management-library-icon_RD.png', size: "40x40", class: "bulb") %>Historic Fact</h1>
+    <h1><%= image_tag('management-library-icon_RD.png', size: "40x40", class: "history") %><span class="hisSpan">Historic Fact</span></h1>
 
     <p class="historyScroll">In 1895 Konstantin Tsiolkovsky, an early Russian rocket scientist, was the first to propose the concept of space elevators, a type of space transportation system.</p>
 
@@ -19,55 +19,56 @@
 
 
   <div class="animalContainer">
-    <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %>Animal Fact</h1>
+    <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %><span class="aniSpan">Animal Fact</span></h1>
 
     <p class="animalScroll">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p>
 
   </div>
 
+  <a href="/beauty">
+    <div class="beautyContainer">
+      <h1><%= image_tag('lipstick.png', size: "40x40", class: "lipstick") %><span class="beaSpan">Beauty Fact</span></h1>
 
-  <div class="beautyContainer">
-    <h1><%= image_tag('lipstick.png', size: "40x40", class: "lipstick") %>Beauty Fact</h1>
+      <p class="beautyScroll">Brunettes take less time getting ready in the morning than blondes, with brunettes averaging about 66 minutes to 72 minutes for blondes.</p>
 
-    <p class="beautyScroll">Brunettes take less time getting ready in the morning than blondes, with brunettes averaging about 66 minutes to 72 minutes for blondes.</p>
-
-  </div>
+    </div>
+  </a>
 
   <div class="chuckContainer">
-    <h2>Chuck Norris Joke</h2>
+    <h1><%= image_tag('laughing.png', size: "40x40", class: "chuck") %><span class="chuckSpan">Chuck Norris</span></h1>
 
     <p class="chuckScroll" id="randomJoke"></p>
 
   </div>
 
 
-  <div class="memeContainer">
-    <h1 id="memeH1">Meme</h1>
-  </div>
-
-
   <div class="lifeContainer">
-    <h1><%= image_tag('thinker.png', size: "40x40", class: "thinker") %>Facts of Life</h1>
+    <h1><%= image_tag('thinker.png', size: "40x40", class: "thinker") %><span class="factsSpan">Socrates</span></h1>
 
-    <p class="lifeScroll">Most neuroscientists distinguish between the words “emotion” and “feeling.” They use “emotion” to describe the brain’s auto-programmed response to certain stimuli, and “feeling” to describe our conscious impression of that response.</p>
-
-  </div>
-
-
-  <div class="triviaContainer">
-    <h1 class="gameH1">Trivia</h1>
-
-    <%= image_tag('light-bulb-icon.png', size: "150x150", class: "bulb") %>
+    <p class="lifeScroll">If you don't get what you want, you suffer; if you get what you don't want, you suffer; even when you get exactly what you want, you still suffer because you can't hold on to it forever. Your mind is your predicament. It wants to be free of change. Free of pain, free of the obligations of life and death. But change is law and no amount of pretending will alter that reality.</p>
 
   </div>
 
 
-  <div class="sudokuContainer">
-    <h1 class="gameH1">Sudoku</h1>
+  <a href="/memory">
+    <div class="triviaContainer">
 
-    <%= image_tag('Apps-Sudoku-icon.png', size: "125x125", class: "sudo") %>
 
-  </div>
+      <h1 class="gameH1">Memory</h1>
+
+      <%= image_tag('light-bulb-icon.png', size: "150x150", class: "bulb") %>
+
+    </div>
+  </a>
+
+  <a href="/sudoku">
+    <div class="sudokuContainer">
+      <h1 class="gameH1">Sudoku</h1>
+
+      <%= image_tag('Apps-Sudoku-icon.png', size: "125x125", class: "sudo") %>
+
+    </div>
+  </a>
 
 
   <div class="starWarsContainer">
@@ -87,7 +88,7 @@
 
     </div>
   </div>
-  
+
 
   <div class="pokeContainer">
     <%= image_tag('pokeball.png', size: "100x100", class: "pokeball") %>
@@ -98,6 +99,16 @@
       <p id="pokeContent">
       </p>
     </div>
+  </div>
+
+
+  <div class="educationalVidContainer">
+    <h1 id="smartH1">Get Smart</h1>
+
+    <div class="smartVid">
+      <iframe width="420" height="260" src="https://www.youtube.com/embed/gZadAICqiRM?list=PLlHanBMNk-DKQzkktkFKGvJR_9gSRDhBr" frameborder="0" allowfullscreen></iframe>
+    </div>
+
   </div>
 
 

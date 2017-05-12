@@ -2,20 +2,27 @@
 // # All this logic will automatically be available in application.js.
 // # You can use CoffeeScript in this file: http://coffeescript.org/
 
-// document.addEventListener("DOMContentLoaded", function (event) {
+// socrates array
 
+var socrates = [
+  "The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.",
+  "Let him who would move the world first move himself.",
+  "Death may be the greatest of all human blessings.",
+  "No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.",
+  "The only good is knowledge and the only evil is ignorance.",
+  "Contentment is natural wealth, luxury is artificial poverty.",
+  "Do not do to others what angers you if done to you by others.",
+  "Every action has its pleasures and its price.",
+  "Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.",
+  "I am not an Athenian or a Greek, but a citizen of the world.",
+  "The hour of departure has arrived, and we go our separate ways, I to die, and you to live. Which of these two is better only God knows.",
+  "Prefer knowledge to wealth, for the one is transitory, the other perpetual."
+]
+var co
   // random numbers
   var whichVid = Math.floor((Math.random() * 3) + 1);
   var swPeeps = Math.floor((Math.random() * 87) + 1);
   var pokePeeps = Math.floor((Math.random() * 721) + 1);
-
-
-  // random goofy video player
-  // var vidFrame = document.getElementById('vidFrame');
-  //
-  // var randomVids = ["https://www.youtube.com/embed/b1JRaGJpzc8", "http://www.youtube.com/embed/?listType=user_uploads&list=gardea23", "http://www.youtube.com/embed/?listType=user_uploads&list=gardea23"]
-  //
-  // vidFrame.src = randomVids[whichVid];
 
 
   // star wars api
@@ -152,6 +159,3 @@
       randomJoke.appendChild(joke1);
     }
   );
-
-
-// }
