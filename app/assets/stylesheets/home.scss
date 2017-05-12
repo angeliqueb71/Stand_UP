@@ -37,7 +37,7 @@
     left: -3px;
   }
 
-  .historyContainer {
+  .confContainer {
     position: absolute;
     top: 160px;
     left: 500px;
@@ -50,7 +50,7 @@
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
   }
 
-  .historyContainer:hover {
+  .confContainer:hover {
     background-color: #77eeee;
     top: 159px;
     left: 499px;
@@ -58,13 +58,17 @@
     height: 152px;
   }
 
-  .history {
+  .confucius {
 
   }
 
-  .hisSpan {
+  #confH1 {
     position: relative;
-    left: 15px;
+    top: -5px;
+  }
+  .confSpan {
+    position: relative;
+    left: 10px;
   }
 
   .animalContainer {
@@ -98,7 +102,7 @@
     top: 4px;
   }
 
-  .beautyContainer {
+  .provContainer {
     position: absolute;
     top: 375px;
     left: 500px;
@@ -111,7 +115,7 @@
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
   }
 
-  .beautyContainer:hover {
+  .provContainer:hover {
     background-color: #FDFD96;
     top: 374px;
     left: 499px;
@@ -119,15 +123,15 @@
     height: 152px;
   }
 
-  .lipstick {
+  .proverb {
     position: relative;
     top: 5px;
     left: -10px;
   }
 
-  .beaSpan {
+  .provSpan {
     position: relative;
-    left: -9px;
+    left: 0px;
   }
 
   .chuckContainer {
@@ -187,39 +191,14 @@
     left: 13px;
   }
 
-  .triviaContainer {
-    position: absolute;
-    top: 515px;
-    left: 1100px;
-    width: 120px;
-    height: 213px;
-    background-color: #FF6666;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .triviaContainer:hover {
-    background-color: #fd7c7c;
-    top: 514px;
-    left: 1099px;
-    width: 122px;
-    height: 215px;
-  }
-
-  .bulb {
-    position: relative;
-    top: -5px;
-    left: -16px;
-  }
-
   .sudokuContainer {
     position: absolute;
+    text-align: center;
+    line-height: 2em;
     top: 515px;
-    left: 1290px;
-    width: 120px;
-    height: 213px;
+    left: 1100px;
+    width: 310px;
+    height: 210px;
     background-color: #FF7F24;
     padding: 10px 30px 30px 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -230,19 +209,20 @@
   .sudokuContainer:hover {
     background-color: #fa9146;
     top: 514px;
-    left: 1289px;
-    width: 122px;
-    height: 215px;
+    left: 1099px;
+    width: 312px;
+    height: 212px;
   }
 
   .sudo {
     position: relative;
-    top: 12px;
+    top: -20px;
     left: -3px;
   }
 
   .gameH1 {
     position: relative;
+    top: 10px;
     left: -4px;
     text-align: center;
   }
@@ -331,7 +311,7 @@
     left: 1860px;
     width: 488px;
     height: 408px;
-    background-color: #fcfc75;
+    background-color: #FF6666;
     padding: 10px 30px 30px 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -339,33 +319,46 @@
   }
 
   .educationalVidContainer:hover {
-    background-color: #FDFD96;
+    background-color: #fd7c7c;
     top: 319px;
     left: 1859px;
     width: 490px;
     height: 410px;
   }
 
+  .bulb {
+    position: relative;
+    top: 2px;
+    left: -5px;
+  }
+
   #smartH1 {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     border-bottom: 3px solid #454545;
     width: 470px;
     position: relative;
-    top: 12px;
+    top: 5px;
     left: 10px;
     text-align: center;
   }
 
   .smartVid {
     position: relative;
-    top: 37px;
+    top: 28px;
     left: 35px;
   }
 
-  .historyScroll {
+  .brain {
+    position: relative;
+    top: -70px;
+    left: 390px;
+  }
+
+  .confScroll {
     position: relative;
     top: -5px;
     height: 70px;
+    width: 480px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -376,16 +369,20 @@
     overflow-y: auto;
   }
 
-  .beautyScroll {
+  .provScroll {
     position: relative;
     top: -5px;
     height: 70px;
+    width: 480px;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .chuckScroll {
-    height: 80px;
+    position: relative;
+    top: -5px;
+    height: 60px;
+    width: 480px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -394,6 +391,7 @@
     position: relative;
     top: -5px;
     height: 190px;
+    width: 300px;
     overflow: hidden;
     overflow-y: auto;
   }

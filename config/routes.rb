@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'facts/index'
+
+  get 'facts/new'
+
   root 'home#index'
 
   get '/life' => 'life#index'

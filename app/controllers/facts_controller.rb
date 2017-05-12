@@ -1,8 +1,8 @@
-class HomeController < ApplicationController
+class FactsController < ApplicationController
   def index
     @facts = Fact.all
-    @fact = Fact.where(category: "animal").limit(1)
   end
+
   def new
     @fact = Fact.new
   end

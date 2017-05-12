@@ -1,5 +1,6 @@
 <div class="mainContentContainer">
 
+<!-- Video of the Day -->
   <div class="videoContainer">
     <h1 id="homeH1">Video of the Day</h1>
 
@@ -9,31 +10,55 @@
 
   </div>
 
-<!-- Confucius -->
-  <div class="historyContainer">
-    <h1><%= image_tag('Home-Chinese-icon.png', size: "40x40", class: "history") %><span class="hisSpan">Confucius</span></h1>
 
-    <p class="historyScroll">By three methods we may learn wisdom: First, by reflection, which is Like noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.</p>
+<!-- Confucius -->
+  <div class="confContainer">
+
+    <h1 id="confH1"><%= image_tag('confucius.png', size: "40x40", class: "confucius") %><span class="confSpan">Confucius</span></h1>
+
+    <!-- <p class="confScroll"></p> -->
+
+    <% @fact.each do |f| %>
+
+      <p class="confScroll"><%= f.content %></p>
+
+    <% end %>
 
   </div>
 
 
+<!-- Animal Facts -->
   <div class="animalContainer">
     <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %><span class="aniSpan">Animal Fact</span></h1>
 
-    <p class="animalScroll">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p>
+    <!-- <p class="animalScroll">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p> -->
+
+    <% @fact.each do |f| %>
+
+      <p class="animalScroll"><%= f.content %></p>
+
+    <% end %>
 
   </div>
 
+
 <!-- ENGLISH PROVERBS -->
 
-    <div class="beautyContainer">
-      <h1><%= image_tag('lipstick.png', size: "40x40", class: "lipstick") %><span class="beaSpan">English Proverb</span></h1>
+    <div class="provContainer">
+      <h1><%= image_tag('tree.png', size: "40x40", class: "proverb") %><span class="provSpan">English Proverb</span></h1>
 
-      <p class="beautyScroll">A fool may ask more questions in half an hour than a wise man can answer in seven years.</p>
+      <!-- <p class="provScroll"></p> -->
+
+      <% @fact.each do |f| %>
+
+        <p class="provScroll"><%= f.content %></p>
+
+      <% end %>
 
     </div>
 
+
+<!-- Chuck Norris -->
 
   <div class="chuckContainer">
     <h1><%= image_tag('laughing.png', size: "40x40", class: "chuck") %><span class="chuckSpan">Chuck Norris</span></h1>
@@ -46,27 +71,29 @@
   <div class="lifeContainer">
     <h1><%= image_tag('thinker.png', size: "40x40", class: "thinker") %><span class="factsSpan">Socrates</span></h1>
 
-    <p class="lifeScroll">If you don't get what you want, you suffer; if you get what you don't want, you suffer; even when you get exactly what you want, you still suffer because you can't hold on to it forever. Your mind is your predicament. It wants to be free of change. Free of pain, free of the obligations of life and death. But change is law and no amount of pretending will alter that reality.</p>
+    <!-- <p class="lifeScroll">If you don't get what you want, you suffer; if you get what you don't want, you suffer; even when you get exactly what you want, you still suffer because you can't hold on to it forever. Your mind is your predicament. It wants to be free of change. Free of pain, free of the obligations of life and death. But change is law and no amount of pretending will alter that reality.</p> -->
+
+    <% @fact.each do |f| %>
+
+      <p class="lifeScroll"><%= f.content %></p>
+
+    <% end %>
 
   </div>
-
-
-  <a href="/memory">
-    <div class="triviaContainer">
-
-
-      <h1 class="gameH1">Memory</h1>
-
-      <%= image_tag('light-bulb-icon.png', size: "150x150", class: "bulb") %>
-
-    </div>
-  </a>
 
 
     <div class="sudokuContainer">
       <h1 class="gameH1">Haiku</h1>
 
-      <%= image_tag('Apps-Sudoku-icon.png', size: "125x125", class: "sudo") %>
+      <p id="haikuP">Ballet in the air <br> Twin butterflies until, twice white <br> They Meet, they mate</p>
+
+      <!-- <% @fact.each do |f| %>
+
+        <p class="haikuP"><%= f.content %></p>
+
+      <% end %> -->
+
+      <%= image_tag('lotus.png', size: "75x75", class: "sudo") %>
 
     </div>
 
@@ -103,11 +130,13 @@
 
 
   <div class="educationalVidContainer">
-    <h1 id="smartH1">Get Smart</h1>
+    <h1 id="smartH1"><%= image_tag('light-bulb-icon.png', size: "30x30", class: "bulb") %>Get Smart</h1>
 
     <div class="smartVid">
       <iframe width="420" height="260" src="https://www.youtube.com/embed/gZadAICqiRM?list=PLlHanBMNk-DKQzkktkFKGvJR_9gSRDhBr" frameborder="0" allowfullscreen></iframe>
     </div>
+
+    <%= image_tag('brain-idea-1.png', size: "120x120", class: "brain") %>
 
   </div>
 
