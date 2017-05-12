@@ -1,7 +1,6 @@
-# README
+# BRAINFLOSS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This App's sole purpose is to provide you with random facts and trivia, some educational others purely entertaining.
 
 Things you may want to cover:
 
@@ -20,7 +19,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
-# fun_facts
-# fun_facts
