@@ -37,7 +37,7 @@
     left: -3px;
   }
 
-  .historyContainer {
+  .confContainer {
     position: absolute;
     top: 160px;
     left: 500px;
@@ -50,7 +50,7 @@
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
   }
 
-  .historyContainer:hover {
+  .confContainer:hover {
     background-color: #77eeee;
     top: 159px;
     left: 499px;
@@ -58,12 +58,26 @@
     height: 152px;
   }
 
+  .confucius {
+    position: relative;
+    top: 5px;
+  }
+
+  #confH1 {
+    position: relative;
+    top: -5px;
+  }
+  .confSpan {
+    position: relative;
+    left: 10px;
+  }
+
   .animalContainer {
     position: absolute;
     top: 530px;
     left: 20px;
     width: 380px;
-    height: 197px;
+    height: 195px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -76,10 +90,20 @@
     top: 529px;
     left: 19px;
     width: 382px;
-    height: 199px;
+    height: 197px;
   }
 
-  .beautyContainer {
+  .aniSpan {
+    position: relative;
+    left: 10px;
+  }
+
+  .animal {
+    position: relative;
+    top: 8px;
+  }
+
+  .provContainer {
     position: absolute;
     top: 375px;
     left: 500px;
@@ -92,7 +116,7 @@
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
   }
 
-  .beautyContainer:hover {
+  .provContainer:hover {
     background-color: #FDFD96;
     top: 374px;
     left: 499px;
@@ -100,11 +124,22 @@
     height: 152px;
   }
 
+  .proverb {
+    position: relative;
+    top: 5px;
+    left: -5px;
+  }
+
+  .provSpan {
+    position: relative;
+    left: 10px;
+  }
+
   .chuckContainer {
     position: absolute;
     top: 590px;
     left: 500px;
-    width: 280px;
+    width: 500px;
     height: 135px;
     background-color: #6961ff;
     padding: 10px 30px 30px 30px;
@@ -117,31 +152,19 @@
     background-color: #766ffd;
     top: 589px;
     left: 499px;
-    width: 282px;
+    width: 502px;
     height: 137px;
   }
 
-  .memeContainer {
-    position: absolute;
-    top: 605px;
-    left: 870px;
-    width: 90px;
-    height: 110px;
-    background-color: #00FFCC;
-    border: 10px solid #454545;
-    border-radius: 100px;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  .chuckSpan {
+    position: relative;
+    left: 12px;
   }
 
-  .memeContainer:hover {
-    background-color: #766ffd;
-    top: 604px;
-    left: 869px;
-    width: 92px;
-    height: 112px;
+  .chuck {
+    position: relative;
+    top: 5px;
+    left: -1px;
   }
 
   .lifeContainer {
@@ -165,39 +188,24 @@
     height: 287px;
   }
 
-  .triviaContainer {
-    position: absolute;
-    top: 515px;
-    left: 1100px;
-    width: 120px;
-    height: 217px;
-    background-color: #FF6666;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .triviaContainer:hover {
-    background-color: #fd7c7c;
-    top: 514px;
-    left: 1099px;
-    width: 122px;
-    height: 219px;
-  }
-
-  .bulb {
+  .thinker {
     position: relative;
-    top: -5px;
-    left: -16px;
+    top: 5px;
+  }
+
+  .factsSpan {
+    position: relative;
+    left: 15px;
   }
 
   .sudokuContainer {
     position: absolute;
+    text-align: center;
+    line-height: 2em;
     top: 515px;
-    left: 1290px;
-    width: 120px;
-    height: 217px;
+    left: 1100px;
+    width: 310px;
+    height: 210px;
     background-color: #FF7F24;
     padding: 10px 30px 30px 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -208,24 +216,27 @@
   .sudokuContainer:hover {
     background-color: #fa9146;
     top: 514px;
-    left: 1289px;
-    width: 122px;
-    height: 219px;
+    left: 1099px;
+    width: 312px;
+    height: 212px;
   }
 
   .sudo {
     position: relative;
-    top: 12px;
+    top: -19px;
     left: -3px;
+    opacity: 0.8;
+  }
+
+  #haikuP {
+    width: 312px;
+    font-size: 15px;
   }
 
   .gameH1 {
-    text-align: center;
-  }
-
-  #memeH1 {
     position: relative;
-    top: 30px;
+    top: 10px;
+    left: -4px;
     text-align: center;
   }
 
@@ -235,7 +246,7 @@
     top: 160px;
     left: 1510px;
     width: 250px;
-    height: 570px;
+    height: 568px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -248,13 +259,13 @@
     top: 159px;
     left: 1509px;
     width: 252px;
-    height: 572px;
+    height: 570px;
   }
 
   // starwars logo
   .starWars {
     position: relative;
-    top: 505px;
+    top: 500px;
     left: 160px;
   }
 
@@ -307,33 +318,100 @@
     // text-align: center;
   }
 
-  .historyScroll {
+  .educationalVidContainer {
+    position: absolute;
+    top: 320px;
+    left: 1860px;
+    width: 488px;
+    height: 408px;
+    background-color: #FF6666;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  }
+
+  .educationalVidContainer:hover {
+    background-color: #fd7c7c;
+    top: 319px;
+    left: 1859px;
+    width: 490px;
+    height: 410px;
+  }
+
+  .bulb {
+    position: relative;
+    top: 2px;
+    left: -5px;
+  }
+
+  #smartH1 {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #454545;
+    width: 470px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    text-align: center;
+  }
+
+  .smartVid {
+    position: relative;
+    top: 28px;
+    left: 35px;
+  }
+
+  .brain {
+    position: relative;
+    top: -70px;
+    left: 390px;
+  }
+
+  .confScroll {
+    position: relative;
+    top: -5px;
     height: 70px;
+    width: 480px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
-    // text-overflow: ellipsis;
     overflow-y: auto;
   }
 
   .animalScroll {
     height: 80px;
+    width: 380px;
     overflow: hidden;
     overflow-y: auto;
   }
 
-  .beautyScroll {
+  .provScroll {
+    position: relative;
+    top: -5px;
     height: 70px;
+    width: 480px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .chuckScroll {
-    height: 80px;
+    position: relative;
+    top: -8px;
+    height: 60px;
+    width: 480px;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .lifeScroll {
+    position: relative;
+    top: -5px;
     height: 190px;
+    width: 300px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
     overflow-y: auto;
   }

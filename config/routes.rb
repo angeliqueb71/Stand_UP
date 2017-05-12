@@ -1,18 +1,16 @@
 Rails.application.routes.draw do
 
-  root 'home#index'
+  get 'facts/index'
 
-  get '/history' => 'history#index'
+  get 'facts/new'
+
+  root 'home#index'
 
   get '/life' => 'life#index'
 
-  get '/animal' => 'animal#index'
-
   get '/beauty' => 'beauty#index'
 
-  get '/sudoku' => 'sudoku#index'
-
-  get '/trivia' => 'trivia#index'
+  get '/memory' => 'trivia#index'
 
   resources :comments
 

@@ -16,9 +16,14 @@
 
  body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #DECBB7 ;
-  color: #433633 ;
+  background-color: #DECBB7;
+  color: #433633;
   letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #433633;
 }
 
 .logo {
@@ -32,15 +37,15 @@ h1, h2, h3 {
 
 nav {
  font-family: 'Luckiest Guy', cursive;
- background-color: #ff6961 ;
+ background-color: #ff6961;
  position: fixed;
  top: 0px;
  left: 0px;
  width: 100%;
  z-index: 11;
  padding: 15px;
- color: #454545 ;
- border-bottom: 20px solid #454545 ;
+ color: #454545;
+ border-bottom: 20px solid #454545;
  height: 85px;
 }
 
@@ -62,7 +67,7 @@ nav li {
   position: relative;
   top: -35px;
   left: 240px;
-  padding-right: 50px;
+  padding-right: 70px;
   font-size: 18px;
   width: 50px;
   letter-spacing: .1em;
@@ -70,9 +75,9 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #454545 ;
+  color: #454545;
 }
 
 nav a:hover {
-  color: #feccc9 ;
+  color: #feccc9;
 }

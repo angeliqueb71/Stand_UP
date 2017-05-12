@@ -2,20 +2,12 @@
 // # All this logic will automatically be available in application.js.
 // # You can use CoffeeScript in this file: http://coffeescript.org/
 
-// document.addEventListener("DOMContentLoaded", function (event) {
+
 
   // random numbers
   var whichVid = Math.floor((Math.random() * 3) + 1);
   var swPeeps = Math.floor((Math.random() * 87) + 1);
   var pokePeeps = Math.floor((Math.random() * 721) + 1);
-
-
-  // random goofy video player
-  // var vidFrame = document.getElementById('vidFrame');
-  //
-  // var randomVids = ["https://www.youtube.com/embed/b1JRaGJpzc8", "http://www.youtube.com/embed/?listType=user_uploads&list=gardea23", "http://www.youtube.com/embed/?listType=user_uploads&list=gardea23"]
-  //
-  // vidFrame.src = randomVids[whichVid];
 
 
   // star wars api
@@ -58,6 +50,7 @@
           var content = document.getElementById("content");
 
           var eight = document.createElement("p");
+          var content = document.getElementById("content");
           eight.innerHTML = homeworldName;
           content.appendChild(eight);
         }
@@ -76,6 +69,7 @@
               var filmContent = document.getElementById("filmContent");
 
               var nine = document.createElement("p");
+              var content = document.getElementById("content");
               nine.innerHTML = filmsTitle;
               filmContent.appendChild(nine);
             }
@@ -144,7 +138,7 @@
 
       // HTML elements stored in variables
       var randomJoke = document.getElementById("randomJoke");
-      var joke1 = document.createElement("p");
+      var joke1 = document.createElement("span");
 
       // populates HTML with API data
 
@@ -152,6 +146,3 @@
       randomJoke.appendChild(joke1);
     }
   );
-
-
-// }
