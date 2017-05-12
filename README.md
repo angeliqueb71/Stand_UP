@@ -18,7 +18,7 @@ APIs used:
 
 * The Star Wars API https://swapi.co/
 
-    * Multiple AJAX calls used to retrieve film and homeworld information
+    * Multiple AJAX calls used to retrieve species, film and home world information
 
 
 * Pokeapi (Pokemon API) https://pokeapi.co/
