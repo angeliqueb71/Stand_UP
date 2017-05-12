@@ -1,21 +1,29 @@
 # BRAINFLOSS
 
-This App's sole purpose is to provide you with random facts and trivia, some educational others purely entertaining.
+This App's sole purpose is to provide you with random facts and trivia, some educational others purely for your entertainment.
 
-Things you may want to cover:
+Specs:
 
-* Ruby version
+* Ruby on Rails
 
-* System dependencies
+* HTML & CSS
 
-* Configuration
+* Javascript
 
-* Database creation
+* Ruby
 
-* Database initialization
+* Scrollmagic
+
+APIs used:
+
+* The Star Wars API https://swapi.co/
+
+* Pokeapi (Pokemon API) https://pokeapi.co/
+
+* ICNDb API (The Internet Chuck Norris Database API) http://www.icndb.com/api/
+
+Hardcoded facts retrieved from:
+
+* Fact Retriever https://www.factretriever.com/
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
