@@ -28,5 +28,3 @@ APIs used:
 Hardcoded facts retrieved from:
 
 * Fact Retriever https://www.factretriever.com/
-
-* How to run the test suite
