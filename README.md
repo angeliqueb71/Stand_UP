@@ -1,5 +1,5 @@
+![Image of cute brain](https://parade.com/wp-content/uploads/2015/09/Brain-Booster.jpg)
 # BRAINFLOSS
-
 This App's sole purpose is to provide you with random facts and trivia, some educational others purely for your entertainment.
 
 Specs:
@@ -17,6 +17,9 @@ Specs:
 APIs used:
 
 * The Star Wars API https://swapi.co/
+
+    * Multiple AJAX calls used to retrieve film and homeworld information
+
 
 * Pokeapi (Pokemon API) https://pokeapi.co/
 
