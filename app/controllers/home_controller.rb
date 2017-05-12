@@ -1,7 +1,15 @@
 class HomeController < ApplicationController
   def index
     @facts = Fact.all
-    @fact = Fact.where(category: "animal").limit(1)
+    @confact = Fact.where(category: "confucius").shuffle.first
+
+    @anifact = Fact.where(category: "animal").shuffle.first
+
+    @proverb = Fact.where(category: "proverbs").shuffle.first
+
+    @socfact = Fact.where(category: "socrates").shuffle.first
+
+    @haifact = Fact.where(category: "haiku").shuffle.first
   end
   def new
     @fact = Fact.new

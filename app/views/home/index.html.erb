@@ -5,7 +5,8 @@
     <h1 id="homeH1">Video of the Day</h1>
 
     <div class="vidOfDay">
-      <iframe id="vidFrame" src="http://www.youtube.com/embed/?listType=user_uploads&list=gardea23" width="382" height="215" controls="1"></iframe>
+      <iframe width="382" height="215" src="https://www.youtube.com/embed/0M7ibPk37_U" frameborder="0" allowfullscreen></iframe>
+
     </div>
 
   </div>
@@ -16,13 +17,9 @@
 
     <h1 id="confH1"><%= image_tag('confucius.png', size: "40x40", class: "confucius") %><span class="confSpan">Confucius</span></h1>
 
-    <!-- <p class="confScroll"></p> -->
 
-    <% @fact.each do |f| %>
+      <p class="confScroll"><%= @confact.content.html_safe %></p>
 
-      <p class="confScroll"><%= f.content %></p>
-
-    <% end %>
 
   </div>
 
@@ -31,13 +28,7 @@
   <div class="animalContainer">
     <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %><span class="aniSpan">Animal Fact</span></h1>
 
-    <!-- <p class="animalScroll">Dusky and spinner dolphins can leap 20 feet (6.1 m) or higher in the air. In fact, spinner dolphins get their name from spinning and somersaulting above the waves.</p> -->
-
-    <% @fact.each do |f| %>
-
-      <p class="animalScroll"><%= f.content %></p>
-
-    <% end %>
+      <p class="animalScroll"><%= @anifact.content.html_safe %></p>
 
   </div>
 
@@ -45,15 +36,11 @@
 <!-- ENGLISH PROVERBS -->
 
     <div class="provContainer">
-      <h1><%= image_tag('tree.png', size: "40x40", class: "proverb") %><span class="provSpan">English Proverb</span></h1>
+      <h1><%= image_tag('english.png', size: "40x40", class: "proverb") %><span class="provSpan">English Proverb</span></h1>
 
-      <!-- <p class="provScroll"></p> -->
 
-      <% @fact.each do |f| %>
+        <p class="provScroll"><%= @proverb.content.html_safe %></p>
 
-        <p class="provScroll"><%= f.content %></p>
-
-      <% end %>
 
     </div>
 
@@ -71,13 +58,9 @@
   <div class="lifeContainer">
     <h1><%= image_tag('thinker.png', size: "40x40", class: "thinker") %><span class="factsSpan">Socrates</span></h1>
 
-    <!-- <p class="lifeScroll">If you don't get what you want, you suffer; if you get what you don't want, you suffer; even when you get exactly what you want, you still suffer because you can't hold on to it forever. Your mind is your predicament. It wants to be free of change. Free of pain, free of the obligations of life and death. But change is law and no amount of pretending will alter that reality.</p> -->
 
-    <% @fact.each do |f| %>
+      <p class="lifeScroll"><%= @socfact.content.html_safe %></p>
 
-      <p class="lifeScroll"><%= f.content %></p>
-
-    <% end %>
 
   </div>
 
@@ -85,13 +68,7 @@
     <div class="sudokuContainer">
       <h1 class="gameH1">Haiku</h1>
 
-      <p id="haikuP">Ballet in the air <br> Twin butterflies until, twice white <br> They Meet, they mate</p>
-
-      <!-- <% @fact.each do |f| %>
-
-        <p class="haikuP"><%= f.content %></p>
-
-      <% end %> -->
+      <p id="haikuP"><%= @haifact.content.html_safe %></p>
 
       <%= image_tag('lotus.png', size: "75x75", class: "sudo") %>
 

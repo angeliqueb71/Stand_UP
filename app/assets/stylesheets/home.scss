@@ -59,7 +59,8 @@
   }
 
   .confucius {
-
+    position: relative;
+    top: 5px;
   }
 
   #confH1 {
@@ -99,7 +100,7 @@
 
   .animal {
     position: relative;
-    top: 4px;
+    top: 8px;
   }
 
   .provContainer {
@@ -126,12 +127,12 @@
   .proverb {
     position: relative;
     top: 5px;
-    left: -10px;
+    left: -5px;
   }
 
   .provSpan {
     position: relative;
-    left: 0px;
+    left: 10px;
   }
 
   .chuckContainer {
@@ -162,6 +163,7 @@
 
   .chuck {
     position: relative;
+    top: 5px;
     left: -1px;
   }
 
@@ -186,9 +188,14 @@
     height: 287px;
   }
 
+  .thinker {
+    position: relative;
+    top: 5px;
+  }
+
   .factsSpan {
     position: relative;
-    left: 13px;
+    left: 15px;
   }
 
   .sudokuContainer {
@@ -216,8 +223,14 @@
 
   .sudo {
     position: relative;
-    top: -20px;
+    top: -19px;
     left: -3px;
+    opacity: 0.8;
+  }
+
+  #haikuP {
+    width: 312px;
+    font-size: 15px;
   }
 
   .gameH1 {
@@ -359,12 +372,15 @@
     top: -5px;
     height: 70px;
     width: 480px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .animalScroll {
     height: 80px;
+    width: 380px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -374,13 +390,15 @@
     top: -5px;
     height: 70px;
     width: 480px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .chuckScroll {
     position: relative;
-    top: -5px;
+    top: -8px;
     height: 60px;
     width: 480px;
     overflow: hidden;
@@ -392,6 +410,8 @@
     top: -5px;
     height: 190px;
     width: 300px;
+    // left: 15px;
+    // text-align: center;
     overflow: hidden;
     overflow-y: auto;
   }
