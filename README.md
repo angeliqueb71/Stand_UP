@@ -13,6 +13,8 @@ Specs:
 * Ruby
 
 * Scrollmagic
+* https://www.smashingmagazine.com/2009/09/backgrounds-in-css-everything-you-need-to-know/
+
 
 APIs used:
 
@@ -28,3 +30,18 @@ APIs used:
 Hardcoded facts retrieved from:
 
 * Fact Retriever https://www.factretriever.com/
+*http://scrollmagic.io/docs/ScrollMagic.Scene.html
+
+*ScrollMagic
+Gsap - library that powers animations built with scrollmagic
+Tweenmax/Pins
+
+ScrollMagic 
+Initialize scrollMagic 
+ #creating varible in our global scope
+ var controller;
+  $(function(){
+     controller = new Scrollmagic ();
+  }); #create a new scrollMagic in the controller varible   
+
+
