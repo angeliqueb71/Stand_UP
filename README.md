@@ -13,7 +13,10 @@ Specs:
 * Ruby
 
 * Scrollmagic
+
 * https://www.smashingmagazine.com/2009/09/backgrounds-in-css-everything-you-need-to-know/
+
+* http://www.color-hex.com/color/dad9cb
 
 
 APIs used:
