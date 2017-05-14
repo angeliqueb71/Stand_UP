@@ -18,6 +18,8 @@ Specs:
 
 * http://www.color-hex.com/color/dad9cb
 
+* https://alligator.io/css/pure-css-parallax/
+
 
 APIs used:
 
