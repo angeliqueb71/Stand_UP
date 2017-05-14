@@ -20,6 +20,8 @@ Specs:
 
 * https://alligator.io/css/pure-css-parallax/
 
+* GreenSock cheat Sheet
+
 
 APIs used:
 
