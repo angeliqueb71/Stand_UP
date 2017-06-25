@@ -11,7 +11,7 @@
 
 
   // star wars api
-  $.getJSON("http://swapi.co/api/people/" + swPeeps,
+  $.getJSON("https://swapi.co/api/people/" + swPeeps,
     function(response) {
       console.log(response);
 
@@ -23,11 +23,23 @@
       var eyes = "Eyes: " + response.eye_color;
       var birth_year = "Birth Year: " +response.birth_year;
       var gender = "Gender: " + response.gender;
-      var species = response.species;
-      var homeworld = response.homeworld;
-      var films = response.films;
 
 
+      var spec = response.species.toString();
+      var species = spec.replace("http", "https");
+
+      console.log(species);
+
+
+      var home = response.homeworld.toString();
+      var homeworld = home.replace("http", "https");
+
+
+      var flix = response.films.toString();
+      var film = flix.replace("http", "https");
+
+
+      //retrieving species value
       $.getJSON(species + "?format=json",
         function(response) {
           console.log(response);
@@ -42,6 +54,7 @@
       );
 
 
+      // retrieving homeworld value
       $.getJSON(homeworld + "?format=json",
         function(response) {
           console.log(response);
@@ -57,6 +70,7 @@
       );
 
 
+      //retrieving films value
       for (i = 0; i < response.films.length; i++) {
 
         var film = response.films[i];
@@ -106,12 +120,16 @@
       content.appendChild(five);
       content.appendChild(six);
       content.appendChild(seven);
+
     }
   );
 
 
+
+
+
   // pokemon api
-  $.getJSON("http://pokeapi.co/api/v2/pokemon/" + pokePeeps + "/",
+  $.getJSON("https://pokeapi.co/api/v2/pokemon/" + pokePeeps + "/",
     function(response) {
       console.log(response);
 
@@ -130,7 +148,7 @@
 
 
   // chuck Norris jokes api
-  $.getJSON("http://api.icndb.com/jokes/random",
+  $.getJSON("https://api.icndb.com/jokes/random",
     function(response) {
       console.log(response);
 
